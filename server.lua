@@ -22,5 +22,5 @@
 
 RegisterServerEvent("ToXicGlo:Lockdown")
 AddEventHandler("ToXicGlo:Lockdown", function()
-	TriggerClientEvent('ToXicGlo:Lockdown', source)
+	TriggerClientEvent('ToXicGlo:Lockdown', -1)
 end)
